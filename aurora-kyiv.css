@@ -1,0 +1,180 @@
+/* Aurora Kyiv — deep navy + electric cyan + violet accents */
+:root {
+  --text-color: #e6f2ff;
+  --muted-fg: #9fb1cc;
+  --muted-bg: #0f172a;
+  --body-bg: #070b14;
+  --body-fg: #e6f2ff;
+  --link-fg: #22d3ee;
+  --link-hover-fg: #0ea5e9;
+  --link-visited-fg: #a78bfa;
+  --shadow-color: #00000080;
+  --ring-color: #22d3ee;
+  --focus-ring: 0 0 0 3px #22d3ee40;
+  --article-box-shadow: 0 10px 30px 0 #00000066, 0 2px 8px 0 #00000040;
+  --article-card-bg: #15233b;
+  --article-card-fg: #e6f2ff;
+  --article-card-head-fg: #e6f2ff;
+  --article-card-time-fg: #e6f2ff;
+  --bbcode-input-bg: #0f172a;
+  --bbcode-input-body-bg: #070b14;
+  --bbcode-input-border: 1px solid #1f2a44;
+  --bbcode-input-border-radius: 1px solid #1f2a44;
+  --bbcode-input-header-bg: #0f172a;
+  --bbcode-rendered-accent-emphasis: #0f172a;
+  --bbcode-rendered-accent-fg: #22d3ee;
+  --bbcode-rendered-attention-subtle: #0f172a;
+  --bbcode-rendered-border-default: 1px solid #1f2a44;
+  --bbcode-rendered-border-muted: 1px solid #1f2a44;
+  --bbcode-rendered-canvas-default: #0f172a;
+  --bbcode-rendered-canvas-subtle: #0f172a;
+  --bbcode-rendered-danger-fg: #ef4444;
+  --bbcode-rendered-fg-default: #e6f2ff;
+  --bbcode-rendered-fg-muted: #9fb1cc;
+  --bbcode-rendered-fg-subtle: #9fb1cc;
+  --bbcode-rendered-neutral-muted: #0f172a;
+  --bbcode-rendered-quote-bg: #0f172a;
+  --bbcode-rendered-quote-border: 1px solid #1f2a44;
+  --breadcrumb-active-fg: #e6f2ff;
+  --breadcrumb-fg: #e6f2ff;
+  --breadcrumb-hover-fg: #e6f2ff;
+  --breadcrumb-inactive-text-decoration: #0f172a;
+  --button-filled-bg: #0ea5e9 linear-gradient(to bottom right, #0ea5e9, #a78bfa);
+  --button-filled-border: 1px solid #1f2a44;
+  --button-filled-border-radius: 1px solid #1f2a44;
+  --button-filled-fg: #e6f2ff;
+  --button-outlined-bg: transparent;
+  --button-outlined-border: 1px solid #1f2a44;
+  --button-outlined-border-radius: 1px solid #1f2a44;
+  --button-outlined-fg: #e6f2ff;
+  --button-text-bg: transparent;
+  --button-text-border: 1px solid #1f2a44;
+  --button-text-border-radius: 1px solid #1f2a44;
+  --button-text-fg: #e6f2ff;
+  --data-table-border-radius: 1px solid #1f2a44;
+  --data-table-fg: #e6f2ff;
+  --data-table-tfoot-border: 1px solid #1f2a44;
+  --data-table-th-bg: #0f172a;
+  --data-table-thead-border: 1px solid #1f2a44;
+  --data-table-tr-border: 1px solid #1f2a44;
+  --data-table-tr-even-bg: #0f172a;
+  --data-table-tr-hover-bg: #1b2a48;
+  --data-table-tr-odd-bg: #131c2f;
+  --dialog-bg: #15233b;
+  --dialog-border: 1px solid #1f2a44;
+  --dialog-border-radius: 1px solid #1f2a44;
+  --dialog-box-shadow: 0 10px 30px 0 #00000066, 0 2px 8px 0 #00000040;
+  --dialog-fg: #e6f2ff;
+  --dialog-head-bg: #0f172a;
+  --dialog-head-fg: #e6f2ff;
+  --fieldset-bg: #0f172a;
+  --fieldset-border: 1px solid #1f2a44;
+  --fieldset-border-radius: 1px solid #1f2a44;
+  --fieldset-fg: #e6f2ff;
+  --footer-bg: #0f172a;
+  --footer-hr-fg: #e6f2ff;
+  --footer-stats-bg: #0f172a;
+  --icon-button-bg: #0f172a;
+  --icon-button-border: 1px solid #1f2a44;
+  --icon-button-border-radius: 1px solid #1f2a44;
+  --icon-button-fg: #e6f2ff;
+  --icon-button-filled-bg: #0ea5e9 linear-gradient(to bottom right, #0ea5e9, #a78bfa);
+  --icon-button-filled-border: 1px solid #1f2a44;
+  --icon-button-filled-fg: #e6f2ff;
+  --input-text-border: 1px solid #1f2a44;
+  --input-text-border-active: 1px solid #22d3ee;
+  --input-text-border-error: 1px solid #ef4444;
+  --input-text-border-hover: 1px solid #1f2a44;
+  --input-text-border-radius: 1px solid #1f2a44;
+  --input-text-fg: #e6f2ff;
+  --input-text-padding: #0f172a;
+  --input-text-padding-active: #0f172a;
+  --input-text-padding-hover: #1b2a48;
+  --key-value-border-radius: 1px solid #1f2a44;
+  --key-value-even-bg: #0f172a;
+  --key-value-fg: #e6f2ff;
+  --key-value-odd-bg: #0f172a;
+  --key-value-padding: #0f172a;
+  --label-bg: #0f172a;
+  --label-fg: #e6f2ff;
+  --label-fg-active: #e6f2ff;
+  --label-fg-error: #ef4444;
+  --label-fg-hover: #e6f2ff;
+  --message-bubble-avatar-border-radius: 1px solid #1f2a44;
+  --message-bubble-bg: #0f172a;
+  --message-bubble-border: 1px solid #1f2a44;
+  --message-bubble-border-radius: 1px solid #1f2a44;
+  --message-bubble-box-shadow: 0 10px 30px 0 #00000066, 0 2px 8px 0 #00000040;
+  --message-bubble-fg: #e6f2ff;
+  --panel-action-fg: #e6f2ff;
+  --panel-bg: #15233b;
+  --panel-body-border-radius: 1px solid #1f2a44;
+  --panel-border: 1px solid #1f2a44;
+  --panel-border-radius: 1px solid #1f2a44;
+  --panel-box-shadow: 0 10px 30px 0 #00000066, 0 2px 8px 0 #00000040;
+  --panel-fg: #e6f2ff;
+  --panel-group-fg: #e6f2ff;
+  --panel-head-bg: #0f172a;
+  --panel-head-border-radius: 1px solid #1f2a44;
+  --panel-head-fg: #e6f2ff;
+  --torrent-card-bg: #15233b;
+  --torrent-card-border: 1px solid #1f2a44;
+  --torrent-card-fg: #e6f2ff;
+  --torrent-card-genre-fg: #e6f2ff;
+  --torrent-card-head-bg: #0f172a;
+  --torrent-card-head-fg: #e6f2ff;
+  --torrent-card-link-fg: #e6f2ff;
+  --torrent-group-bg: #0f172a;
+  --torrent-group-chip-border: 1px solid #1f2a44;
+  --torrent-group-header-bg: #0f172a;
+  --torrent-group-hover-brightness-emphasis: #1b2a48;
+  --torrent-group-table-stripe-even: #0f172a;
+  --torrent-group-table-stripe-odd: #0f172a;
+  --torrent-group-text: #0f172a;
+  --torrent-group-text-muted: #0f172a;
+  --torrent-row-bumped-fg: #22d3ee;
+  --torrent-row-buttons-fg: #e6f2ff;
+  --torrent-row-comments-fg: #a78bfa;
+  --torrent-row-completed-fg: #0ea5e9;
+  --torrent-row-double-upload-fg: #a78bfa;
+  --torrent-row-featured-fg: #f59e0b;
+  --torrent-row-fg: #e6f2ff;
+  --torrent-row-format-bg: #0f172a;
+  --torrent-row-format-fg: #e6f2ff;
+  --torrent-row-freeleech-fg: #e6f2ff;
+  --torrent-row-highspeed-fg: #10b981;
+  --torrent-row-internal-fg: #6366f1;
+  --torrent-row-leechers-fg: #ef4444;
+  --torrent-row-personal-fg: #f472b6;
+  --torrent-row-seeders-fg: #22c55e;
+  --torrent-row-sticky-bg: #0f172a;
+  --torrent-row-sticky-fg: #e6f2ff;
+  --torrent-row-thanks-fg: #f59e0b;
+  --torrent-row-visited-fg: #a78bfa;
+  --torrent-tag-bg: #0f172a;
+  --torrent-tag-fg: #e6f2ff;
+  --torrent-tag-hover-bg: #0f172a;
+  --torrent-tag-hover-fg: #e6f2ff;
+  --selection-bg: #22d3ee33;
+  --selection-fg: #e6f2ff;
+  --scrollbar-track-bg: #0f172a;
+  --scrollbar-thumb-bg: #1f2a44;
+  --scrollbar-thumb-hover-bg: #213052;
+}
+
+/* Optional: subtle aurora background */
+body {
+  background: radial-gradient(1200px 600px at 80% -10%, #22d3ee12, transparent 60%),
+              radial-gradient(1000px 500px at 10% 10%, #a78bfa14, transparent 60%),
+              linear-gradient(180deg, #070b14, #0b1220 30%, #0f172a);
+  color: var(--body-fg);
+}
+a { color: var(--link-fg); }
+a:hover { color: var(--link-hover-fg); }
+a:visited { color: var(--link-visited-fg); }
+
+/* Optional: modern scrollbars */
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: var(--scrollbar-track-bg); }
+::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb-bg); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover-bg); }
