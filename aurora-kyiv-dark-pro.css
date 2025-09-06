@@ -1,0 +1,218 @@
+/* Aurora Kyiv — Dark Pro (eye‑comfort, high‑contrast, OKLCH‑ready) */
+:root {
+  --text-color: #ffffff;
+  --muted-fg: #ffffff;
+  --muted-bg: #111a2b;
+  --body-bg: #0b1118;
+  --body-fg: #ffffff;
+  --link-fg: #ffffff;
+  --link-hover-fg: #ffffff;
+  --link-visited-fg: #ffffff;
+  --shadow-color: #00000080;
+  --ring-color: #ffffff;
+  --focus-ring: 0 0 0 3px #ffffff40;
+  --scrollbar-track-bg: #0e1522;
+  --scrollbar-thumb-bg: #22304f;
+  --scrollbar-thumb-hover-bg: #273657;
+  --article-box-shadow: 0 12px 32px 0 #00000066, 0 2px 10px 0 #0000003d;
+  --article-card-bg: #111a2b;
+  --article-card-fg: #ffffff;
+  --article-card-head-fg: #ffffff;
+  --article-card-time-fg: #ffffff;
+  --bbcode-input-bg: #111a2b;
+  --bbcode-input-body-bg: #0b1118;
+  --bbcode-input-border: 1px solid #1e2a44;
+  --bbcode-input-border-radius: 1px solid #1e2a44;
+  --bbcode-input-header-bg: #111a2b;
+  --bbcode-rendered-accent-emphasis: #111a2b;
+  --bbcode-rendered-accent-fg: #ffffff;
+  --bbcode-rendered-attention-subtle: #111a2b;
+  --bbcode-rendered-border-default: 1px solid #1e2a44;
+  --bbcode-rendered-border-muted: 1px solid #1e2a44;
+  --bbcode-rendered-canvas-default: #111a2b;
+  --bbcode-rendered-canvas-subtle: #111a2b;
+  --bbcode-rendered-danger-fg: #ef4444;
+  --bbcode-rendered-fg-default: #ffffff;
+  --bbcode-rendered-fg-muted: #ffffff;
+  --bbcode-rendered-fg-subtle: #ffffff;
+  --bbcode-rendered-neutral-muted: #111a2b;
+  --bbcode-rendered-quote-bg: #111a2b;
+  --bbcode-rendered-quote-border: 1px solid #1e2a44;
+  --breadcrumb-active-fg: #ffffff;
+  --breadcrumb-fg: #ffffff;
+  --breadcrumb-hover-fg: #ffffff;
+  --breadcrumb-inactive-text-decoration: #111a2b;
+  --button-filled-bg: #ffffff linear-gradient(180deg, #ffffff, #ffffff);
+  --button-filled-border: 1px solid #1e2a44;
+  --button-filled-border-radius: 1px solid #1e2a44;
+  --button-filled-fg: #ffffff;
+  --button-outlined-bg: transparent;
+  --button-outlined-border: 1px solid #1e2a44;
+  --button-outlined-border-radius: 1px solid #1e2a44;
+  --button-outlined-fg: #ffffff;
+  --button-text-bg: transparent;
+  --button-text-border: 1px solid #1e2a44;
+  --button-text-border-radius: 1px solid #1e2a44;
+  --button-text-fg: #ffffff;
+  --data-table-border-radius: 1px solid #1e2a44;
+  --data-table-fg: #ffffff;
+  --data-table-tfoot-border: 1px solid #1e2a44;
+  --data-table-th-bg: #111a2b;
+  --data-table-thead-border: 1px solid #1e2a44;
+  --data-table-tr-border: 1px solid #1e2a44;
+  --data-table-tr-even-bg: #111a2b;
+  --data-table-tr-hover-bg: #1a2945;
+  --data-table-tr-odd-bg: #152034;
+  --dialog-bg: #111a2b;
+  --dialog-border: 1px solid #1e2a44;
+  --dialog-border-radius: 1px solid #1e2a44;
+  --dialog-box-shadow: 0 12px 32px 0 #00000066, 0 2px 10px 0 #0000003d;
+  --dialog-fg: #ffffff;
+  --dialog-head-bg: #111a2b;
+  --dialog-head-fg: #ffffff;
+  --fieldset-bg: #111a2b;
+  --fieldset-border: 1px solid #1e2a44;
+  --fieldset-border-radius: 1px solid #1e2a44;
+  --fieldset-fg: #ffffff;
+  --footer-bg: #111a2b;
+  --footer-hr-fg: #ffffff;
+  --footer-stats-bg: #111a2b;
+  --icon-button-bg: #111a2b;
+  --icon-button-border: 1px solid #1e2a44;
+  --icon-button-border-radius: 1px solid #1e2a44;
+  --icon-button-fg: #ffffff;
+  --icon-button-filled-bg: #ffffff linear-gradient(180deg, #ffffff, #ffffff);
+  --icon-button-filled-border: 1px solid #1e2a44;
+  --icon-button-filled-fg: #ffffff;
+  --input-text-border: 1px solid #1e2a44;
+  --input-text-border-active: 1px solid #ffffff;
+  --input-text-border-error: 1px solid #ef4444;
+  --input-text-border-hover: 1px solid #1e2a44;
+  --input-text-border-radius: 1px solid #1e2a44;
+  --input-text-fg: #ffffff;
+  --input-text-padding: #111a2b;
+  --input-text-padding-active: #111a2b;
+  --input-text-padding-hover: #1a2945;
+  --key-value-border-radius: 1px solid #1e2a44;
+  --key-value-even-bg: #111a2b;
+  --key-value-fg: #ffffff;
+  --key-value-odd-bg: #111a2b;
+  --key-value-padding: #111a2b;
+  --label-bg: #111a2b;
+  --label-fg: #ffffff;
+  --label-fg-active: #ffffff;
+  --label-fg-error: #ef4444;
+  --label-fg-hover: #ffffff;
+  --message-bubble-avatar-border-radius: 1px solid #1e2a44;
+  --message-bubble-bg: #111a2b;
+  --message-bubble-border: 1px solid #1e2a44;
+  --message-bubble-border-radius: 1px solid #1e2a44;
+  --message-bubble-box-shadow: 0 12px 32px 0 #00000066, 0 2px 10px 0 #0000003d;
+  --message-bubble-fg: #ffffff;
+  --panel-action-fg: #ffffff;
+  --panel-bg: #111a2b;
+  --panel-body-border-radius: 1px solid #1e2a44;
+  --panel-border: 1px solid #1e2a44;
+  --panel-border-radius: 1px solid #1e2a44;
+  --panel-box-shadow: 0 12px 32px 0 #00000066, 0 2px 10px 0 #0000003d;
+  --panel-fg: #ffffff;
+  --panel-group-fg: #ffffff;
+  --panel-head-bg: #111a2b;
+  --panel-head-border-radius: 1px solid #1e2a44;
+  --panel-head-fg: #ffffff;
+  --torrent-card-bg: #111a2b;
+  --torrent-card-border: 1px solid #1e2a44;
+  --torrent-card-fg: #ffffff;
+  --torrent-card-genre-fg: #ffffff;
+  --torrent-card-head-bg: #111a2b;
+  --torrent-card-head-fg: #ffffff;
+  --torrent-card-link-fg: #ffffff;
+  --torrent-group-bg: #111a2b;
+  --torrent-group-chip-border: 1px solid #1e2a44;
+  --torrent-group-header-bg: #111a2b;
+  --torrent-group-hover-brightness-emphasis: #1a2945;
+  --torrent-group-table-stripe-even: #111a2b;
+  --torrent-group-table-stripe-odd: #111a2b;
+  --torrent-group-text: #111a2b;
+  --torrent-group-text-muted: #111a2b;
+  --torrent-row-bumped-fg: #ffffff;
+  --torrent-row-buttons-fg: #ffffff;
+  --torrent-row-comments-fg: #ffffff;
+  --torrent-row-completed-fg: #ffffff;
+  --torrent-row-double-upload-fg: #ffffff;
+  --torrent-row-featured-fg: #ffffff;
+  --torrent-row-fg: #ffffff;
+  --torrent-row-format-bg: #111a2b;
+  --torrent-row-format-fg: #ffffff;
+  --torrent-row-freeleech-fg: #ffffff;
+  --torrent-row-highspeed-fg: #10b981;
+  --torrent-row-internal-fg: #60a5fa;
+  --torrent-row-leechers-fg: #ef4444;
+  --torrent-row-personal-fg: #f472b6;
+  --torrent-row-seeders-fg: #22c55e;
+  --torrent-row-sticky-bg: #111a2b;
+  --torrent-row-sticky-fg: #ffffff;
+  --torrent-row-thanks-fg: #f59e0b;
+  --torrent-row-visited-fg: #ffffff;
+  --torrent-tag-bg: #111a2b;
+  --torrent-tag-fg: #ffffff;
+  --torrent-tag-hover-bg: #111a2b;
+  --torrent-tag-hover-fg: #ffffff;
+}
+
+/* Prefer dark automatically; this file is itself dark‑first */
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: dark; }
+}
+
+/* Body and typography tuned for readability */
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: radial-gradient(1100px 520px at 80% -10%, #22d3ee14, transparent 60%),
+              radial-gradient(900px 480px at 12% 8%, #a78bfa10, transparent 65%),
+              linear-gradient(180deg, var(--body-bg), var(--app-bg, #0e1522));
+  color: var(--body-fg);
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+}
+a { color: var(--link-fg); text-decoration-thickness: .08em; text-underline-offset: .18em; }
+a:hover { color: var(--link-hover-fg); }
+a:visited { color: var(--link-visited-fg); }
+
+/* Selection & scrollbars */
+::selection { background: #22d3ee33; color: #ffffff; }
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: var(--scrollbar-track-bg); }
+::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb-bg); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover-bg); }
+
+/* Focus visibly without relying only on color */
+:focus-visible { outline: 2px solid var(--ring-color); outline-offset: 2px; }
+
+/* High contrast mode opt‑in if user requests */
+@media (prefers-contrast: more) {
+  :root {
+    --muted-fg: #ffffff;
+    --link-fg: #ffffff;
+    --link-hover-fg: #ffffff;
+  }
+}
+
+/* Reduce motion for sensitive users */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* OKLCH accents (if supported) — perceptually uniform */
+@supports (color: oklch(0.7 0.15 220)) {
+  :root {
+    --link-fg: oklch(0.76 0.16 206);
+    --link-hover-fg: oklch(0.72 0.20 220);
+    --link-visited-fg: oklch(0.74 0.14 308);
+    --ring-color: oklch(0.78 0.12 215);
+  }
+}
